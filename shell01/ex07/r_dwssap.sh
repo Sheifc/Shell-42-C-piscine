@@ -1,0 +1,1 @@
+cat /etc/passwd |grep --invert-match '^#' |sed -n "n;p" |sed 's/\:.*//g' |rev |sort -r |awk -v var1=$FT_LINE1 -v var2=$FT_LINE2 'NR>=var1 && NR<=var2 { print }' | paste -sd "," - |sed 's/,/, /g' |sed 's/$/./g' |tr -d '\n'
