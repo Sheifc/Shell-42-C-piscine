@@ -56,7 +56,7 @@ touch -mht
 
 where `-m` means modification, `h` for link, and `t` for time.
 
-To change permissions: (for more information refers to the file permissions in the folder ex01)
+To change permissions: (For more information, refer to the file permissions in the `ex01` folder)
 chmod 715 test0
 chmod 714 test1
 chmod 504 test2
