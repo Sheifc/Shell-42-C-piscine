@@ -4,6 +4,14 @@ Files to deliver: testShell00.tar
 Authorized functions: None
 ---------------------------
 
+Create the file `testShell00` in your delivery directory.
+• Find a way for your screen to display the following (except for the "total 1" line):
+%> ls -l
+total XX
+-r--r-xr-x 1 XX XX 40 Jun 1 23:42 testShell00
+%>
+• Once the previous steps are completed, execute the following command to create the file that must be submitted: `tar -cf testShell00.tar testShell00`.
+
 To complete this exercise, the first thing you need to do is create the delivery directory within a folder called shell00, just like you see it here: 
 
 mkdir shell00 
