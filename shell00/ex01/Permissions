@@ -1,0 +1,95 @@
+Reference: https://geekytheory.com/permisos-de-archivos-en-linux/
+
+File Permissions in Linux (or GNU/Linux) are of great importance. 
+We usually have several users on our system, and not all of them have access to modify or work with all files. 
+
+Each file contains information about itself:
+
+File owner.
+File group.
+File permissions.
+
+Each user belongs to at least one group, which is assigned at the user's creation. 
+Groups are used to implement a file access policy where we can grant access to users of a specific group. 
+This way, those who don't belong to that group won't have access.
+
+Types of Permissions
+
+There are 3 types of permissions:
+
+Read: Allows a certain user to view the contents of a file. If it's a directory, the contents within.
+Write: Allows modification of a file. If it's a directory, the contents within.
+Execute: Enables running an executable file, if applicable, with this permission.
+
+Permission Analysis
+
+You might have seen letters like r, w, or x when listing a directory. 
+Let's list a directory with the command:
+
+ls -l
+
+You'll see something similar to this:
+
+drwxr-xr-x  2 mario mario     4096 Jul 27 22:00 Downloads
+drwxr-xr-x  3 mario mario     4096 Jul 17 12:39 Documents
+
+The first thing you'll notice is 10 characters: drwxr-xr-x. 
+The first character represents the file type. 
+The next 3 characters represent user permissions, the following 3 represent group permissions, and the final 3 represent permissions for others:
+
+d: File type (directory).
+rwx: Owner's permissions (read, write, execute).
+r-x: Group's permissions (read and execute).
+r-x: Others' permissions (read and execute).
+
+File Types (first character):
+
+FILE TYPE	MEANING
+-	Common file
+d	Directory
+l	Symbolic link
+s	Socket
+p	Pipe
+
+Numeric Permissions:
+
+As we've seen, we have characters for file permissions, but changing permissions using characters can be cumbersome. To make it simpler, we can use numbers.
+
+These will be 3 numbers ranging from 0 to 7:
+
+First number: Owner's permissions.
+Second number: Group's permissions.
+Third number: Others' permissions.
+To represent numbers from 0 to 7, we need 3 bits, which are the 3 bits used for giving permissions to the owner, group, and others. 
+A '1' grants permission, and a '0' removes it. It follows the order: rwx.
+
+BINARY	DECIMAL	PERMISSIONS	DESCRIPTION
+000	      0	      - - -	    No permission
+001	      1	      - - x	    Execute
+010	      2	      - w -	    Write
+011	      3	      - w x	    Write and execute
+100	      4	      r - -	    Read
+101	      5	      r - x	    Read and execute
+110	      6	      r w -	    Read and write
+111	      7	      r w x	    Read, write, and execute
+
+Examples
+644:
+
+Owner: Read and write.
+Group: Read.
+Others: Read.
+
+755:
+
+Owner: Read, write, and execute.
+Group: Read and execute.
+Others: Read and execute.
+
+777:
+
+Owner: Read, write, and execute.
+Group: Read, write, and execute.
+Others: Read, write, and execute.
+
+You can use the information from this article when using tools like chmod or mkdir to modify permissions or create new folders and files.
