@@ -1,0 +1,22 @@
+Exercise 00 
+Delivery Directory: ex00/
+Files to deliver: z 
+Authorized functions: None
+---------------------------
+
+To complete this exercise, the first thing we need to do is create the delivery directory within a folder called shell00: 
+mkdir shell00 
+cd shell00 
+mkdir ex00 
+cd ex00. 
+
+Using the `mkdir` command, we create the directory, and with the `cd` command, we change directory.
+
+Later on, we need to create the file requested named `z` written in lowercase for which you can use `nano` or `vim`, the choice is up to you and in the file you need to write the capital letter `Z`.
+
+Steps for vim execution:
+vim z
+Z
+command: esc:wq 
+
+This command allows you to save and close the file in vim. 
