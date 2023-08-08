@@ -44,7 +44,9 @@ To create the link, we use the following command `ln -s test0 test6`, where:
 Note that the files `test3` and `test5` are exact copies; that's why we need to create the `test5` file based on `test3` like this: `ln test3 test5`. 
 This way, we observe that both of them contain 2 links instead of 1. 
 
-We change the dates of files and directories using `touch -mht`, where `-m` means modification, `h` for link, and `t` for time.
+We change the dates of files and directories using `touch -t`
+
+For links: `touch -mht`, where `-m` means modification, `h` for link, and `t` for time.
 
 To change permissions: 
 chmod 715 test0
