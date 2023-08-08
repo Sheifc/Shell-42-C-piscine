@@ -12,7 +12,7 @@ cd shell00
 Inside the shell00 directory, we should create a subdirectory named ex00:
 
 mkdir ex00 
-cd ex00. 
+cd ex00
 
 Using the `mkdir` command, we create the directory, and with the `cd` command, we change directory.
 
