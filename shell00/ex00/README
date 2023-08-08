@@ -4,7 +4,7 @@ Files to deliver: z
 Authorized functions: None
 ---------------------------
 
-To complete this exercise, the first thing you need to do is create the delivery directory within a folder called shell00: 
+To complete this exercise, the first thing you need to do is create the delivery directory within a folder called shell00, just like you see it here: 
 
 mkdir shell00 
 cd shell00 
