@@ -12,29 +12,21 @@ total XX
 %>
 • Once the previous steps are completed, execute the following command to create the file that must be submitted: `tar -cf testShell00.tar testShell00`.
 
-To complete this exercise, the first thing you need to do is create the delivery directory within a folder called shell00, just like you see it here: 
+- To complete this exercise, we create and open the file testShell00:
+nano testShell00
 
-mkdir shell00 
-cd shell00 
+- Write 39 characters in the file, which results in a size of 40 bits due to the newline also being counted.
 
-Inside the shell00 directory, we should create a subdirectory named ex00:
+- Save and close: 
+Control o 
+Enter
+Control x
 
-mkdir ex00 
-cd ex00 
+- Modify time and date: 
+touch -t 202306012342 testShell00
 
-Using the `mkdir` command, we create the directory, and with the `cd` command, we change directory.
+- Modify the permissions to obtain: -r--r-xr-x
+chmod 455 testShell00
 
-Later on, we need to create the requested file named z, written in lowercase. You can use either nano or vim for this task; the choice is up to you. 
-Inside the z file, you need to write the capital letter Z.
-
-Steps for vim execution:
-
-1. Open the z file with vim:
-vim z
-
-2. Write the capital letter Z in the file.
-3. Save and close the file in vim:
-Press Esc
-Type: :wq 
-
-This command allows you to save and close the file in `vim`. 
+- Compress the file in .tar format.
+tar -cf testShell00.tar testShell00
