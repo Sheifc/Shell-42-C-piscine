@@ -22,8 +22,8 @@ Inside the z file, you need to write the capital letter Z.
 Steps for vim execution:
 
 1. Open the z file with vim:
-
 vim z
+
 2. Write the capital letter Z in the file.
 3. Save and close the file in vim:
 Press Esc
