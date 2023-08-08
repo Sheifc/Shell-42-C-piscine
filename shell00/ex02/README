@@ -25,18 +25,18 @@ Don't worry about what appears in place of "XX".
 
 A year is accepted as an answer instead of the time.
 
-Create the file `exo2` in your delivery directory.
+- Create the file `exo2` in your delivery directory.
 
-To create a file that occupies one bit, you choose a text editor like, for example, nano. 
+- To create a file that occupies one bit, you choose a text editor like, for example, nano. 
 Upon opening the file, you write a character and then delete it in a way that the newline will count as 1 bit. 
 Otherwise, if you don't write anything in the file, it would weigh 0.
 
-Save and close nano: 
+- Save and close nano: 
 control o
 Enter
 control x
 
-In this exercise, you are being asked to create a link from `test6` to `test0`. 
+- In this exercise, you are being asked to create a link from `test6` to `test0`. 
 To create the link, we use the following command: 
 
 ln -s test0 test6
@@ -45,10 +45,10 @@ where:
 `ln` creates a new directory entry (linked file) that has the same permissions as the original files 
 `-s` allows us to create a symbolic link 
 
-Note that the files `test3` and `test5` are exact copies; that's why we need to create the `test5` file based on `test3` like this: `ln test3 test5`. 
+- Note that the files `test3` and `test5` are exact copies; that's why we need to create the `test5` file based on `test3` like this: `ln test3 test5`. 
 This way, we observe that both of them contain 2 links instead of 1. 
 
-We change the dates of files and directories using: 
+- We change the dates of files and directories using: 
 touch -t
 
 For links: 
@@ -56,7 +56,7 @@ touch -mht
 
 where `-m` means modification, `h` for link, and `t` for time.
 
-To change permissions: (For more information, refer to the file permissions in the `ex01` folder)
+- To change permissions: (For more information, refer to the file permissions in the `ex01` folder)
 chmod 715 test0
 chmod 714 test1
 chmod 504 test2
