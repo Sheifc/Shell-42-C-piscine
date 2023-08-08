@@ -8,4 +8,4 @@ Create a folder inside the directory shell00 named ex01 and change directory:
 mkdir ex02
 cd ex02
 
-Create the file `testShell00` in your delivery directory.
+Create the file `exo2` in your delivery directory.
