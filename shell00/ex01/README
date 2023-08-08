@@ -16,6 +16,8 @@ total XX
 %>
 • Once the previous steps are completed, execute the following command to create the file that must be submitted: `tar -cf testShell00.tar testShell00`.
 
+Don't worry about what appears in place of "XX". 
+
 - To complete this exercise, we create and open the file testShell00:
 nano testShell00
 
