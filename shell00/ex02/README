@@ -67,4 +67,5 @@ To change permissions of links:
 chmod -h 777 test6
 Where -h is related to links
 
+- To compress the file in .tar format: 
 tar -cf exo2.tar
