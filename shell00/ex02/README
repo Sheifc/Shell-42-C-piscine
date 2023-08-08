@@ -37,18 +37,26 @@ Enter
 control x
 
 In this exercise, you are being asked to create a link from `test6` to `test0`. 
-To create the link, we use the following command `ln -s test0 test6`, where: 
+To create the link, we use the following command: 
+
+ln -s test0 test6
+
+where: 
 `ln` creates a new directory entry (linked file) that has the same permissions as the original files 
 `-s` allows us to create a symbolic link 
 
 Note that the files `test3` and `test5` are exact copies; that's why we need to create the `test5` file based on `test3` like this: `ln test3 test5`. 
 This way, we observe that both of them contain 2 links instead of 1. 
 
-We change the dates of files and directories using `touch -t`
+We change the dates of files and directories using: 
+touch -t
 
-For links: `touch -mht`, where `-m` means modification, `h` for link, and `t` for time.
+For links: 
+touch -mht
 
-To change permissions: 
+where `-m` means modification, `h` for link, and `t` for time.
+
+To change permissions: (for more information refers to the file permissions in the folder ex01)
 chmod 715 test0
 chmod 714 test1
 chmod 504 test2
