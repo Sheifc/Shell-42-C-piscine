@@ -16,7 +16,8 @@ cd ex00
 
 Using the `mkdir` command, we create the directory, and with the `cd` command, we change directory.
 
-Later on, we need to create the requested file named z, written in lowercase. You can use either nano or vim for this task; the choice is up to you. Inside the z file, you need to write the capital letter Z.
+Later on, we need to create the requested file named z, written in lowercase. You can use either nano or vim for this task; the choice is up to you. 
+Inside the z file, you need to write the capital letter Z.
 
 Steps for vim execution:
 
