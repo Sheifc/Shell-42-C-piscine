@@ -5,6 +5,9 @@ Authorized functions: None
 ---------------------------
 
 Create a file named `z` that, when a `cat` command is executed on it, displays "Z" followed by a newline.
+?>cat z 
+Z
+?>
 
 To complete this exercise, the first thing you need to do is create the delivery directory within a folder called shell00, just like you see it here: 
 
