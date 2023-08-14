@@ -24,6 +24,7 @@ Steps:
 vim clean
 i
 find . \(-name '*~' -o -name '#*#'\) -type f -print -exec rm {} \; > clean 
+esc:wq
 
 `find .` : finds on this directory and subdirectories
 `\` : scape bars to neutralised character's action
