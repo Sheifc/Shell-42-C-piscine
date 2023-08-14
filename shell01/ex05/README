@@ -11,3 +11,10 @@ $>ls -lRa *MaRV* | cat -e
 -rw---xr-- 1 75355 32015 2 Oct 2 12:21 "\?$*'MaRViN'*$?\"$
 $>
 ------------------------------------
+
+vim \"\\\?\$\*\'MaRViN\'\*\$\?\\\"
+i
+42
+Esc:wq
+
+`\` is used to scape special characters
