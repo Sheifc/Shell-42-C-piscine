@@ -1,0 +1,40 @@
+Exercise 01
+Delivery Directory: ex01/
+Files to deliver: testShell00.tar 
+Authorized functions: None
+---------------------------
+
+Create a folder inside the directory shell00 named ex01 and change directory: 
+mkdir ex01
+cd ex01
+---------------------------
+
+Create the file `testShell00` in your delivery directory.
+• Find a way for your screen to display the following (except for the "total 1" line):
+%> ls -l
+total XX
+-r--r-xr-x 1 XX XX 40 Jun 1 23:42 testShell00
+%>
+• Once the previous steps are completed, execute the following command to create the file that must be submitted: `tar -cf testShell00.tar testShell00`.
+
+Don't worry about what appears in place of "XX". 
+-----------------------------
+
+- To complete this exercise, we create and open the file testShell00:
+nano testShell00
+
+- Write 39 characters in the file, which results in a size of 40 bits due to the newline also being counted.
+
+- Save and close: 
+Control o 
+Enter
+Control x
+
+- Modify time and date: 
+touch -t 202306012342 testShell00
+
+- Modify the permissions to obtain: -r--r-xr-x
+chmod 455 testShell00
+
+- Compress the file in .tar format.
+tar -cf testShell00.tar testShell00
