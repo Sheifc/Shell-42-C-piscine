@@ -72,7 +72,9 @@ Where -h is related to links
 tar -cf exo2.tar
 
 - To evaluate this exercise you need to decompress the file, for this you can use this command: 
-tar -xf exo2.tar
+tar -xf exo2.tar 
+or
+tar -xpf exo2.tar
 
 Or you can open the folder on terminal: open . 
 And then double click 
