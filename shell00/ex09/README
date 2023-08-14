@@ -20,3 +20,10 @@ WARNING: Only the file ft_magic should be deliver, the rest of files must be del
 
 ---------------------------
 
+Steps: 
+------
+vim ft_magic
+i
+41 string 42 42 file
+esc:wq
+-------
