@@ -3,7 +3,6 @@ Delivery directory: ex04/
 Files to deliver: midLS 
 Authorized functions: None
 ----------------------------
-
 • Create a file named midLS that contains the command to be executed to list the files and directories in the current directory, 
 excluding hidden files or those starting with a dot (.), separated by a comma and a space, 
 sorted by modification date, and with directories followed by a slash ("/").
@@ -16,7 +15,6 @@ Create a folder inside the directory shell00 named ex04 and change directory:
 mkdir ex04
 cd ex04
 -----------------------------
-
 Steps: 
 -----
 - To create the file: 
