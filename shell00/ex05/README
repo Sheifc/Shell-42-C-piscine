@@ -3,7 +3,6 @@ Files to deliver: git_commit.sh
 Delivery directory: ex05/ 
 Authorized functions: None
 -------------------------------
-
 • Create a shell script that displays the IDs of the last 5 commits in your Git repository.
 To test your script, we will use our own environment.
 
@@ -18,7 +17,6 @@ e94d0b448c03ec633f16d84d63beaef9ae7e7be8$
 RTFM! (Read The F***ing Manual!)
 The first retry is short, don't hesitate to request an intermediate evaluation to measure your progress!
 --------------------------------
-
 Create a folder inside the directory shell00 named ex05 and change directory: 
 mkdir ex05
 cd ex05
