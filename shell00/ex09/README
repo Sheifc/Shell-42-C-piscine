@@ -1,1 +1,12 @@
+Illusions, not tricks, Michael... 
 
+Files to deliver: ft_magic
+Delivery directory: ex09/ 
+Authorized functions: None
+--------------------------
+
+• Create a magic file named 'ft_magic' that must be correctly formatted to detect files of type 42 using the 'file' command, 
+consisting of the string "42" at the 42nd byte.
+
+man file
+--------------------------
