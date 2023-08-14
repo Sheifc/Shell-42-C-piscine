@@ -1,38 +1,38 @@
-Exercise 00 
-Delivery Directory: ex00/
-Files to deliver: z 
-Authorized functions: None
----------------------------
+Exercise 00   
+Delivery Directory: ex00/  
+Files to deliver: z   
+Authorized functions: None  
+---------------------------  
 
-Create a file named `z` that, when a `cat` command is executed on it, displays "Z" followed by a newline.
-?>cat z 
-Z
-?>
----------------------------
+Create a file named `z` that, when a `cat` command is executed on it, displays "Z" followed by a newline.  
+?>cat z     
+Z  
+?>  
+---------------------------  
 
-To complete this exercise, the first thing you need to do is create the delivery directory within a folder called shell00, just like you see it here: 
+To complete this exercise, the first thing you need to do is create the delivery directory within a folder called shell00, just like you see it here:   
 
-mkdir shell00 
-cd shell00 
+mkdir shell00   
+cd shell00   
 
 Inside the shell00 directory, we should create a subdirectory named ex00:
 
-mkdir ex00 
-cd ex00
+mkdir ex00   
+cd ex00  
 
-Using the `mkdir` command, we create the directory, and with the `cd` command, we change directory.
+Using the `mkdir` command, we create the directory, and with the `cd` command, we change directory.  
 
-Later on, we need to create the requested file named z, written in lowercase. You can use either nano or vim for this task; the choice is up to you. 
-Inside the z file, you need to write the capital letter Z.
+Later on, we need to create the requested file named z, written in lowercase. You can use either nano or vim for this task; the choice is up to you.   
+Inside the z file, you need to write the capital letter Z.  
 
-Steps for vim execution:
+Steps for vim execution:  
 ------------------------
-1. Create and open the z file with vim:
-vim z
+1. Create and open the z file with vim:  
+vim z  
 
-2. Write the capital letter Z in the file.
-3. Save and close the file in vim:
-Press Esc
-Type: :wq 
+2. Write the capital letter Z in the file.  
+3. Save and close the file in vim:  
+Press Esc  
+Type: :wq     
 
-This command allows you to save and close the file in `vim`. 
+This command allows you to save and close the file in `vim`.   
