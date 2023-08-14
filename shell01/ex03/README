@@ -16,3 +16,6 @@ find . | wc -l | tr -d " "
 find . : find in the current directory and subdirectories
 wc -l : word count number of lines
 tr -d " " : to remove the space before the number in the output
+
+Make the file executable by providing it with the appropriate permissions:
+chmod 744 count_files.sh
