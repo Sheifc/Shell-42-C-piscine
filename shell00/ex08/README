@@ -1,1 +1,41 @@
+Delivery directory: ex08/ 
+Files to deliver: clean 
+Authorized functions: None
+--------------------------
 
+• Write a command line in a file named 'clean' that searches, starting from the current directory and all its subdirectories, 
+for files whose names end with ~ or start and end with #.
+• The command line will display and delete the found files.
+• Only one command is allowed: no ';' , '&&', or other tricks.
+
+man find
+---------------------------
+It asks us to create a file named 'clean' that contains the command to search for files ending with ~ and 
+starting and ending with #, which means, #file#, delete them, and display their names in the 'clean' file. 
+
+Steps: 
+-----
+vim clean
+i
+find . \(-name '*~' -o -name '#*#'\) -type f -print -exec rm {} \; > clean 
+
+`find .` : finds on this directory and subdirectories
+`\` : scape bars to neutralised character's action
+`-name '*~'` : a name which starts with whatever (*) and finishes with ~
+`-o`: o 
+`-name '#*#': a name which starts with '#' continues which whatever (*) and finishes with '#'
+`-type f` : type file
+`-print` : and print it 
+`-exec rm` : if it finds them it executes 'rm'
+`{}`: they will be saved here
+`> clean` : output a file called clean where all name's files removed will be written and saved 
+
+The way to verify that the command is correct: 
+----------------------------------------------
+We proceed to create files which names correspond: 
+touch test~
+touch #test#
+with ls we can see that the file has been created
+find . \(-name '*~' -o -name '#*#'\) -type f -print -exec rm {} \; > clean 
+We observe the deleted files: 
+nano clean 
