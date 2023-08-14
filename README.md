@@ -10,6 +10,10 @@ Both projects were evaluated by molinette with `100/100`
 
 Enjoy the practice!
 
+## Very important: 
+Pay attention to the delivery directory and type of file you must deliver, it is not allowed to send other files or wrong directory. 
+In that case, it will be evaluated with 0. 
+
 First steps for both projects:   
 -----------------------------
 
