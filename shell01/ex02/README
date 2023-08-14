@@ -16,3 +16,18 @@ $>
 
 Don't trust any source of information: Always conduct your own tests, checks, and verifications.
 ----------------------------
+
+find . -name '*.sh' -type f -exec basename {} \; | sed 's/\.sh//g'
+
+find . : find in current directory and subdirectories
+-name '*.sh': names that start with whatever (*) and finish with .sh
+-type f: files
+-exec basename {} \; The `basename` command is executed, passing the found file {} as a parameter. 
+`basename` returns the file name and removes the path.
+\; is needed for -exec to work 
+sed 's/\.sh//g' : sed is used to replace multiple characters, on this ocassion, replace `.sh` for nothing
+`\` is used to escape special characters, on this ocassion to escape the character `.`
+`g` can be used or not, returns the same solution
+
+Make the file executable by providing it with the appropriate permissions:
+chmod 744 find_sh.sh
