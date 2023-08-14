@@ -29,6 +29,7 @@ First steps for both projects:
 3. On terminal: use the commands `cd` (change directory) to move towards the directory and `mkdir` to create the delivery directory.
 
 Example:   
+`mkdir shell00`   
 `cd shell00`
 `mkdir ex00`    
 `cd ex00`  
