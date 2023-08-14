@@ -13,3 +13,5 @@ $>
 ------------------------------------
 
 printf 42 > \"\\\?\$\*\'MaRViN\'\*\$\?\\\"
+
+`\` is used to escape special characters
