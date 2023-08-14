@@ -1,1 +1,13 @@
+Exercise 03: count_files.sh
+Files to deliver: count_files.sh
+Delivery directory: ex03/
+Authorized functions: None
+---------------------------------
+• Write a command line that displays the number of files and directories in the current directory and all its subdirectories, 
+including the "." from the initial directory.
+• Example output:
+
+$>./count_files.sh | cat -e
+42$ 
+$>
 
