@@ -8,6 +8,7 @@ Create a file named `z` that, when a `cat` command is executed on it, displays "
 ?>cat z 
 Z
 ?>
+---------------------------
 
 To complete this exercise, the first thing you need to do is create the delivery directory within a folder called shell00, just like you see it here: 
 
@@ -25,7 +26,7 @@ Later on, we need to create the requested file named z, written in lowercase. Yo
 Inside the z file, you need to write the capital letter Z.
 
 Steps for vim execution:
-
+------------------------
 1. Create and open the z file with vim:
 vim z
 
