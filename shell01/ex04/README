@@ -7,3 +7,10 @@ Authorized functions: None
 
 man ifconfig
 --------------------------
+
+When you use the 'ifconfig' command in the terminal, a lot of information appears. In this information, 
+we see that MAC addresses are preceded by the word 'ether'. 
+Therefore, we can search for the word 'ether' using 'sed' and replace each line from the beginning using '^' 
+and any intermediate text '.*' until the word 'ether' and the following space.
+
+
