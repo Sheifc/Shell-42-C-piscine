@@ -11,6 +11,10 @@ Authorized functions: None
 The file name has not been chosen randomly.
 Make sure you understand the difference between public key and private key.
 ---------------------------------
+Create a folder inside the directory shell00 named ex03 and change directory: 
+mkdir ex03
+cd ex03
+----------------------------------
 
 ssh -keygen
 enter (several times)
