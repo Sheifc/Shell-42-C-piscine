@@ -1,1 +1,9 @@
+Exercise 04: MAC.sh
+Delivery directory: ex04/
+Files to deliver: MAC.sh
+Authorized functions: None
+--------------------------
+• Write a command line that displays the MAC addresses of your computer. Each address will be followed by a newline.
 
+man ifconfig
+--------------------------
