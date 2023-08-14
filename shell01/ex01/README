@@ -3,7 +3,6 @@ Files to deliver: print_groups.sh
 Delivery directory: ex01/ 
 Authorized functions: None
 ---------------------------------
-
 Write a command line that displays, separated by commas without spaces, the list of groups to which the login, 
 contained in the environment variable FT_USER, belongs.
 • Examples:
@@ -19,3 +18,13 @@ daemon,bin$>
 
 man id
 ----------------------------------
+
+id -Gn $FT_USER | tr ' '  ',' | tr -d '\n'
+
+id -Gn $FT_USER: prints the name of groups for the environment variable FT_USER
+tr: allows us to replace one character by another character, one by one
+tr -d '\n': deletes the newline
+
+To check this:
+--------------
+export FT_USER=daemon 
