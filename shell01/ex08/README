@@ -15,3 +15,10 @@ FT_NBR2=dcrcmcmooododmrrrmorcmcrmomo
 ◦ The sum is:
 Segmentation fault
 --------------------------------
+The entire command sequence takes FT_NBR1 and FT_NBR2, performs base conversions and arithmetic, and then translates the result into the specified character set.
+
+echo $FT_NBR1 + $FT_NBR2: Prints the sum of FT_NBR1 and FT_NBR2 separated by a space.
+tr "'"'\\\"\?\!' 01234 | tr 'mrdoc' 01234: Translates characters in FT_NBR1 and FT_NBR2 from the given set of characters (''",?!') and ('mrdoc') to their corresponding numeric values (01234).
+sed 's/^/obase=13; ibase=5;/': Adds the necessary prefix to set base conversion in bc: 'obase=13; ibase=5;'.
+bc: Performs the base conversion calculation using the bc (basic calculator) command.
+tr 0123456789ABC 'gtaio luSnemf': Translates the output from bc back to the final base 'gtaio luSnemf' representation.
