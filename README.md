@@ -30,7 +30,7 @@ First steps for both projects:
 
 Example:   
 `mkdir shell00`   
-`cd shell00`
+`cd shell00`  
 `mkdir ex00`    
 `cd ex00`  
 
