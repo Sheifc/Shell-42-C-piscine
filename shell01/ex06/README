@@ -1,1 +1,7 @@
-
+Exercis 06: skip.sh
+Delivery directory: ex06/ 
+Files to deliver: skip.sh 
+Authorized functions: None
+--------------------------
+• Write a command line that displays an 'ls -l' every two lines, starting from the first.
+--------------------------
