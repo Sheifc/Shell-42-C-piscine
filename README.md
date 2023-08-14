@@ -46,11 +46,11 @@ VIM steps on terminal:
 
 NANO steps on terminal: 
 ----------------------
-`nano filename`
-(write anything you need)
-`control 0`
-`Enter`
-`Control x`
+`nano filename`  
+(write anything you need)  
+`control 0`  
+`Enter`  
+`Control x`  
 
 Tips: 
 -----
