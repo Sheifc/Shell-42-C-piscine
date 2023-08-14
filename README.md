@@ -30,7 +30,7 @@ First steps for both projects:
 
 Example:   
 `cd shell00`
-`mkdir ex00`  
+`mkdir ex00`    
 `cd ex00`  
 
 Once inside, create the requested file with vim or nano editor. It's up to you to choose the one you like more. 
