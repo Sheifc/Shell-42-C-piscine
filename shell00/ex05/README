@@ -34,7 +34,7 @@ esc:wq
 - Grant permissions to be executable:
 chmod 744 git_commit.sh 
 
--You should see all commits already done (we use cat -e to check result with the information provided: 
+- You should see all commits already done (we use cat -e to check result with the information provided: 
 ./git_commit.sh | cat -e
 
 You can use bash too so you don't need to be worried about permissions: bash git_commit.sh | cat -e
