@@ -20,14 +20,14 @@ In case of cheching subdirctories too:
 `ls */**`
 
 Copy files with: 
-cp
+`cp`
 
 move or rename files with:   
-mv
+`mv`
 
 Moving files:   
-example: mv file /Users/name/desktop   
-example: mv file folder/  
+example: `mv file /Users/name/desktop`  
+example: `mv file folder/`  
 
 Renaming files:   
-mv file file2  
+`mv file file2`  
