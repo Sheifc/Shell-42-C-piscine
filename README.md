@@ -4,7 +4,7 @@ This repo contains some practical exercises and solutions to get some knowledge 
 
 Subjects are provided on pdf files and folders are organised as requested.
 
-Each folder contains a README file where explanations are provided. 
+Each folder contains a README file where explanations and subject are provided. 
 
 Both projects were evaluated by molinette with `100/100`
 
