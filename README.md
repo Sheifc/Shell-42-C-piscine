@@ -31,8 +31,8 @@ Example:
 
 Once inside, create the requested file with vim or nano editor. It's up to you to choose the one you like more. 
 
-VIM steps: 
----------
+VIM steps on terminal: 
+---------------------
 `vim filename`  
 `i`  
 `esc:wq`  
@@ -43,6 +43,14 @@ VIM steps:
 `esc:q` : quit  
 `esc:q!` : force quit without saving changes  
 `i` : insert mode (to be able to write or edit on the file)
+
+NANO steps on terminal: 
+----------------------
+`nano filename`
+(write anything you need)
+`control 0`
+`Enter`
+`Control x`
 
 Tips: 
 -----
