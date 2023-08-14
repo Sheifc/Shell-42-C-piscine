@@ -4,11 +4,6 @@ Files to deliver: testShell00.tar
 Authorized functions: None
 ---------------------------
 
-Create a folder inside the directory shell00 named ex01 and change directory: 
-mkdir ex01
-cd ex01
----------------------------
-
 Create the file `testShell00` in your delivery directory.
 • Find a way for your screen to display the following (except for the "total 1" line):
 %> ls -l
@@ -19,6 +14,11 @@ total XX
 
 Don't worry about what appears in place of "XX". 
 -----------------------------
+
+Create a folder inside the directory shell00 named ex01 and change directory: 
+mkdir ex01
+cd ex01
+---------------------------
 
 - To complete this exercise, we create and open the file testShell00:
 nano testShell00
