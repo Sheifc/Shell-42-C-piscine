@@ -1,1 +1,16 @@
+Exercise 07: r_dwssap.sh
+Delivery directory: ex07/ 
+Files to deliver: r_dwssap.sh 
+Authorized functions: None
+-----------------------------
+• Write a command line that displays the result of the command 'cat /etc/passwd', removing comments, 
+showing every second line starting from the second, reversing each username, sorting them in reverse alphabetical order, 
+keeping only the usernames between FT_LINE1 and FT_LINE2 (both inclusive), separated by ", " (without the quotes), and ending with a ".".
+• Example: Between lines 7 and 15, the result will be something like this:
 
+$> ./r_dwssap.sh
+sstq_, sorebrek_brk_, soibten_, sergtsop_, scodved_, rlaxcm_, rgmecived_, revreswodniw_, revressta_
+.$>
+
+Follow the instructions in the statement rigorously.
+-----------------------------
