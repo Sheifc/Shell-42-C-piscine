@@ -11,9 +11,9 @@ for files whose names end with ~ or start and end with #.
 man find
 ---------------------------
 
-Create a folder inside the directory shell00 named ex07 and change directory: 
-mkdir ex07
-cd ex07
+Create a folder inside the directory shell00 named ex08 and change directory: 
+mkdir ex08
+cd ex08
 ---------------------------
 
 It asks us to create a file named 'clean' that contains the command to search for files ending with ~ and 
