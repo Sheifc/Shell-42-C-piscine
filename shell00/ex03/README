@@ -1,1 +1,35 @@
+SSH Key
 
+Delivery directory: ex03/ 
+Files to deliver: id_rsa_pub 
+Authorized functions: None
+--------------------------------
+
+• Create your own SSH key. Once you have it:
+- Add your public key to your repository, in a file named id_rsa_pub
+- Update your SSH key on the intranet. This will allow you to push the repository to our git server.
+The file name has not been chosen randomly.
+Make sure you understand the difference between public key and private key.
+---------------------------------
+
+ssh -keygen
+enter (several times)
+cd ~/.ssh 
+# To add ~ Alt or option ñ
+# From here on, you can use it to consult the key.
+ls 
+# `ls` lists three files for us, the ".pub" is our public key, we open it using `cat`:
+cat id_rsa.pub
+
+NOTE: It displays the key that we copy and paste into our SSH Key settings on the intranet. 
+We return to the terminal and upload the repository using Git. 
+Previously, we didn't have permission because we hadn't set up the SSH key.
+
+Git instructions: 
+----------------
+git init
+git status
+git add . (if you don´t wish to add all files, you can select the files to add instead of using `.`)
+git commit -m "comment" (-m allows you to add a comment)
+git push 
+git log (allows you to check that has been pushed correctly)
