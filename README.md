@@ -22,12 +22,12 @@ ls */**
 Copy files with: 
 cp
 
-move or rename files with: 
+move or rename files with:   
 mv
 
-Moving files: 
-example: mv file /Users/name/desktop 
-example: mv file folder/
+Moving files:   
+example: mv file /Users/name/desktop   
+example: mv file folder/  
 
-Renaming files: 
-mv file file2
+Renaming files:   
+mv file file2  
