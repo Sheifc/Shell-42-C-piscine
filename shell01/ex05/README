@@ -12,10 +12,4 @@ $>ls -lRa *MaRV* | cat -e
 $>
 ------------------------------------
 
-vim \"\\\?\$\*\'MaRViN\'\*\$\?\\\"
-i
-42
-Esc:wq
-
-`\` is used to scape special characters
-`i` insert mode in vim to be able to write
+printf 42 > \"\\\?\$\*\'MaRViN\'\*\$\?\\\"
