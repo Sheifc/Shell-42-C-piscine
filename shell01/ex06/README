@@ -5,3 +5,5 @@ Authorized functions: None
 --------------------------
 • Write a command line that displays an 'ls -l' every two lines, starting from the first.
 --------------------------
+It means to display one line yes, another no.
+
