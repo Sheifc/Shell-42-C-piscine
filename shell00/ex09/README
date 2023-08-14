@@ -27,3 +27,16 @@ i
 41 string 42 42 file
 esc:wq
 -------
+
+`41 string 42` : is indicating that the file contains 41 bits and on 42 bit is written the string 42
+`42 file`: is the name shown on screen to identify the file 
+
+To check how this command works: 
+
+1. Create a file which contains on the 42 bit the number 42 written: we call the file for example: test
+2. Enter this command on terminal:
+file -m ft_magic test
+3. You should be on terminal the file `test` with the name changed to `42`. 
+
+Using this command you can find files with a specific detail inside (like 42 on bit 42) that can be used to localise it
+and be exposed with a selected name to be found (like 42).
