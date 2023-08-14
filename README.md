@@ -17,7 +17,7 @@ First steps for both projects:
 
 2. On terminal, clone the repository with the command `git clone`:  
 
-git clone link_gitrepository name  
+`git clone link name`  
 
 `link_gitrepository`: remember to change this for the link of the git repository  
 `name`: replace this for shell00 or shell01 respectively  
@@ -25,17 +25,17 @@ git clone link_gitrepository name
 3. On terminal: use the commands `cd` (change directory) to move towards the directory and `mkdir` to create the delivery directory.
 
 Example:   
-cd shell00  
-mkdir ex00  
-cd ex00  
+`cd shell00`
+`mkdir ex00`  
+`cd ex00`  
 
 Once inside, create the requested file with vim or nano editor. It's up to you to choose the one you like more. 
 
 VIM steps: 
 ---------
-vim filename  
+`vim filename`  
 i   
-esc:wq  
+`esc:wq`  
 
 `filename`: replace this for the name of the file requested  
 `esc:w` : write (save)   
