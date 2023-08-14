@@ -12,11 +12,10 @@ Do only what has been requested!
 RTFM! (Read The F***ing Manual!)
 Push to Git frequently.
 -----------------------------
-
-ls -mtp
-`m` : separate by commas
-`t` : sort by time modified
-`p` : write a slash `/` after each directory 
+Create a folder inside the directory shell00 named ex04 and change directory: 
+mkdir ex04
+cd ex04
+-----------------------------
 
 Steps: 
 -----
@@ -25,3 +24,8 @@ vim midLS
 i #to open insert mode
 ls -mtp
 esc:wq #to write and quit which means save and close
+
+ls -mtp
+`m` : separate by commas
+`t` : sort by time modified
+`p` : write a slash `/` after each directory 
