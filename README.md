@@ -35,6 +35,16 @@ Example:
 
 Once inside, create the requested file with vim or nano editor. It's up to you to choose the one you like more. 
 
+Git instructions: 
+----------------
+`git clone git_link folder_name`
+# remember to change the git link for the link provided by the intranet and the folder_name for the name of the folder you want to create
+`git status`
+`git add .` (if you don´t wish to add all files, you can select the files to add instead of using `.`)
+`git commit -m "comment"` (-m allows you to add a comment)
+`git push` 
+`git log` (allows you to check that has been pushed correctly)
+
 VIM steps on terminal: 
 ---------------------
 `vim filename`  
