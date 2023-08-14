@@ -18,4 +18,4 @@ i
 Esc:wq
 
 `\` is used to scape special characters
-ì`insert mode in vim to be able to write
+`i` insert mode in vim to be able to write
