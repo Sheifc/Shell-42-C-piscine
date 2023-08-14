@@ -3,15 +3,12 @@ Delivery Directory: ex00/
 Files to deliver: z 
 Authorized functions: None
 ---------------------------
-
 Create a file named `z` that, when a `cat` command is executed on it, displays "Z" followed by a newline.
 ?>cat z 
 Z
 ?>
 ---------------------------
-
 Inside the shell00 directory, we should create a subdirectory named ex00:
-
 mkdir ex00 
 cd ex00
 
