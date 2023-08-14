@@ -26,9 +26,15 @@ sed 's/,/, /g' |
 sed 's/$/./g' |
 tr -d '\n'
 
-`cat /etc/passwd`: shows the result requested
-`grep --invert-match '^#'` : removes the comments, deselected all starting from the beginning to #
+`cat /etc/passwd`: reads and displays the contents of the `/etc/passwd` file
+`grep --invert-match '^#'` : excludes lines starting with '#' (comments) from the outputremoves the comments. 
+It means, it is deselected all starting from the beginning to #
 `sed -n "n;p"` : -n modifes the default output, n jumps the line and p prints, resulting in printing from the second line
-`sort -r` : reverse sorted
-`sed 's/$/./g'` : $ means last character
-`tr -d '\n'` : deletes the newline
+`sed 's/\:.*//g'` : removes everything after the first colon (':') in each line (typically used to extract usernames from `/etc/passwd`)
+`rev`: reverses the characters in each line of the input. It flips the text from left to right
+`sort -r` : sorts the lines in reverse order (alphabetically from Z to A)
+`awk -v var1=$FT_LINE1 -v var2=$FT_LINE2 'NR>=var1 && NR<=var2 { print }'`: selects lines between line numbers specified by `FT_LINE1` and `FT_LINE2` variables.
+`paste -sd "," -`: combines lines with a comma (,) separator
+`sed 's/,/, /g'`: adds a space after each comma
+`sed 's/$/./g'` : adds a period (.) at the end of the line. $ means last character
+`tr -d '\n'` : removes newline characters, ensuring the output is in a single line
