@@ -27,8 +27,32 @@ git help ls -files
 This way, we can see that we can use either -i or --ignored to ignore files.
 
 Steps: 
------
+------
 vim git_ignored.sh
 i 
 git status --ignored -s | grep '!!' | cut -c 4-
 esc:wq
+-------
+
+This command is a sequence of Git and Unix commands that work together to filter and display ignored files in a Git repository. 
+Let's break down each part of the command:
+
+1. `git status --ignored -s`: This part of the command uses the `git status` command with the `--ignored` option 
+to show the status of ignored files in a concise format (`-s` stands for "short"). This command will list both tracked and untracked ignored files.
+
+2. `|`: This symbol is a pipe operator in Unix-like operating systems. 
+It takes the output of the preceding command (in this case, the output of `git status --ignored -s`) and 
+passes it as input to the next command in the sequence.
+
+3. `grep '!!'`: The `grep` command is used to search for a specific pattern in the input text. In this case, 
+`'!!'` is used as the pattern to search for lines that contain double exclamation marks. 
+In Git status output, double exclamation marks indicate ignored files.
+
+4. `cut -c 4-`: The `cut` command is used to extract specific columns or sections from lines of text. 
+The `-c` option specifies the characters to be selected. 
+In this case, `4-` indicates that characters starting from the fourth position to the end of the line should be selected. 
+This effectively removes the first three characters (which are the double exclamation marks) from each line, leaving only the filenames of the ignored files.
+
+In summary, the command sequence `git status --ignored -s | grep '!!' | cut -c 4-` combines Git status checking for ignored files, 
+filtering with `grep` to find lines with double exclamation marks, and then using `cut` to extract the filenames of the ignored files from the filtered output. 
+This provides a clean list of the filenames of the ignored files in the repository.
