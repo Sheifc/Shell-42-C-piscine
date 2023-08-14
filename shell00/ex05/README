@@ -24,7 +24,21 @@ Create a folder inside the directory shell00 named ex05 and change directory:
 mkdir ex05
 cd ex05
 ---------------------------
-
+Steps: 
+------
 vim git_commit.sh
 i
-git log --
+git log --format%H -5 (you can use Quotation marks "%H", it's the same) 
+esc:wq
+
+- Grant permissions to be executable:
+chmod 744 git_commit.sh 
+
+-You should see all commits already done (we use cat -e to check result with the information provided: 
+./git_commit.sh | cat -e
+
+You can use bash too so you don't need to be worried about permissions: bash git_commit.sh | cat -e
+
+In case you need help with git: 
+-------------------------------
+git --help
