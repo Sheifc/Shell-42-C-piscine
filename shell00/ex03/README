@@ -27,7 +27,9 @@ Previously, we didn't have permission because we hadn't set up the SSH key.
 
 Git instructions: 
 ----------------
-git init
+git init #you can just create the folder with the link provided by the ex03 so you don´t need to initialised the folder with init, you just need to do:
+git clone git_link folder_name
+# remember to change the git link for the link provided by the intranet and the folder_name for the name of the folder you want to create
 git status
 git add . (if you don´t wish to add all files, you can select the files to add instead of using `.`)
 git commit -m "comment" (-m allows you to add a comment)
