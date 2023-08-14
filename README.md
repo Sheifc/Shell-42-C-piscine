@@ -15,12 +15,12 @@ First steps for both projects:
 
 1. Copy the link from the git repository of the project
 
-2. On terminal, clone the repository with the command `git clone`:
+2. On terminal, clone the repository with the command `git clone`:  
 
-git clone link_gitrepository name
+git clone link_gitrepository name  
 
-`link_gitrepository`: remember to change this for the link of the git repository
-`name`: replace this for shell00 or shell01 respectively
+`link_gitrepository`: remember to change this for the link of the git repository  
+`name`: replace this for shell00 or shell01 respectively  
 
 3. On terminal: use the commands `cd` (change directory) to move towards the directory and `mkdir` to create the delivery directory.
 
