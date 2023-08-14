@@ -1,0 +1,18 @@
+Exercise 02: find_sh.sh
+Delivery directory: ex02/ 
+Files to deliver: find_sh.sh 
+Authorized functions: None
+----------------------------
+• Write a command line that searches in the current directory and all its subdirectories for all files whose names end with ".sh" (without the quotes) 
+and only displays their names without the .sh extension.
+• Example output:
+
+$>./find_sh.sh | cat -e
+find_sh$
+file1$
+file2$
+file3$
+$>
+
+Don't trust any source of information: Always conduct your own tests, checks, and verifications.
+----------------------------
