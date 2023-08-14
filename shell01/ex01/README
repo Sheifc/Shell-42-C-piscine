@@ -1,1 +1,21 @@
+Exercise 01: print_groups.sh 
+Files to deliver: print_groups.sh 
+Delivery directory: ex01/ 
+Authorized functions: None
+---------------------------------
 
+Write a command line that displays, separated by commas without spaces, the list of groups to which the login, 
+contained in the environment variable FT_USER, belongs.
+• Examples:
+  - with FT_USER=nours, the result is "god,root,admin,master,nours,bocal" (without the quotes)
+
+$>./print_groups.sh
+god,root,admin,master,nours,bocal$>
+
+  - with FT_USER=daemon, the result is "daemon,bin" (without the quotes)
+
+$>./print_groups.sh
+daemon,bin$>
+
+man id
+----------------------------------
