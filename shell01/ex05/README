@@ -1,1 +1,13 @@
-
+Exercise 05: Can you create it? 
+Files to deliver: "\?$*'MaRViN'*$?\"
+Delivery directory: ex05/ 
+Authorized functions: None
+------------------------------------
+• Create a file that contains only '42' and NOTHING else.
+• It will be named:
+   "\?$*'MaRViN'*$?\"
+• Example:
+$>ls -lRa *MaRV* | cat -e
+-rw---xr-- 1 75355 32015 2 Oct 2 12:21 "\?$*'MaRViN'*$?\"$
+$>
+------------------------------------
