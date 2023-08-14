@@ -38,3 +38,8 @@ It means, it is deselected all starting from the beginning to #
 `sed 's/,/, /g'`: adds a space after each comma
 `sed 's/$/./g'` : adds a period (.) at the end of the line. $ means last character
 `tr -d '\n'` : removes newline characters, ensuring the output is in a single line
+
+To check this commands: 
+-----------------------
+export FT_LINE1=7
+export FT_LINE2=15
