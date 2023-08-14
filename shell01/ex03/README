@@ -10,4 +10,9 @@ including the "." from the initial directory.
 $>./count_files.sh | cat -e
 42$ 
 $>
+--------------------------------
+find . | wc -l | tr -d " "
 
+find . : find in the current directory and subdirectories
+wc -l : word count number of lines
+tr -d " " : to remove the space before the number in the output
