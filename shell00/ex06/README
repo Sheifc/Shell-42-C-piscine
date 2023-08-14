@@ -18,7 +18,7 @@ To test your script, we will use our own environment.
 Create a folder inside the directory shell00 named ex06 and change directory: 
 mkdir ex06
 cd ex06
----------------------------
+--------------------------------
 
 We will use the Git help manual to perform this exercise. 
 
