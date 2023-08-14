@@ -3,7 +3,6 @@ Delivery directory: ex03/
 Files to deliver: id_rsa_pub 
 Authorized functions: None
 --------------------------------
-
 • Create your own SSH key. Once you have it:
 - Add your public key to your repository, in a file named id_rsa_pub
 - Update your SSH key on the intranet. This will allow you to push the repository to our git server.
