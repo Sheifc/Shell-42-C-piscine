@@ -60,7 +60,7 @@ where `-m` means modification, `h` for link, and `t` for time.
 chmod 715 test0
 chmod 714 test1
 chmod 504 test2
-chmod 404 test3 (this will automaticaly change test5 too)
+chmod 404 test3 (this will automatically change test5 too)
 chmod 641 test4
 
 To change permissions of links: 
@@ -69,3 +69,9 @@ Where -h is related to links
 
 - To compress the file in .tar format: 
 tar -cf exo2.tar
+
+- To evaluate this exercise you need to decompress the file, for this you can use this command: 
+tar -xf exo2.tar
+
+Or you can open the folder on terminal: open . 
+And then double click 
