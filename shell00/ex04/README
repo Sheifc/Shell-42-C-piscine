@@ -1,1 +1,27 @@
+midLS
+Delivery directory: ex04/ 
+Files to deliver: midLS 
+Authorized functions: None
+----------------------------
 
+• Create a file named midLS that contains the command to be executed to list the files and directories in the current directory, 
+excluding hidden files or those starting with a dot (.), separated by a comma and a space, 
+sorted by modification date, and with directories followed by a slash ("/").
+
+Do only what has been requested!
+RTFM! (Read The F***ing Manual!)
+Push to Git frequently.
+-----------------------------
+
+ls -mtp
+`m` : separate by commas
+`t` : sort by time modified
+`p` : write a slash `/` after each directory 
+
+Steps: 
+-----
+- To create the file: 
+vim midLS
+i #to open insert mode
+ls -mtp
+esc:wq #to write and quit which means save and close
