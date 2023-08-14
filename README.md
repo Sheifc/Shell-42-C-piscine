@@ -24,24 +24,24 @@ git clone link_gitrepository name
 
 3. On terminal: use the commands `cd` (change directory) to move towards the directory and `mkdir` to create the delivery directory.
 
-Example: 
-cd shell00
-mkdir ex00
-cd ex00
+Example:   
+cd shell00  
+mkdir ex00  
+cd ex00  
 
 Once inside, create the requested file with vim or nano editor. It's up to you to choose the one you like more. 
 
 VIM steps: 
 ---------
-vim filename
-i 
-esc:wq
+vim filename  
+i   
+esc:wq  
 
-`filename`: replace this for the name of the file requested
-`esc:w` : write (save) 
-`esc:wq` : write (save) and quit (close vim)
-`esc:q` : quit
-`esc:q!` : force quit without saving changes
+`filename`: replace this for the name of the file requested  
+`esc:w` : write (save)   
+`esc:wq` : write (save) and quit (close vim)  
+`esc:q` : quit  
+`esc:q!` : force quit without saving changes  
 `i` : insert mode (to be able to write or edit on the file)
 
 Tips: 
