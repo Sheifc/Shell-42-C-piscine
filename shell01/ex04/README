@@ -7,6 +7,8 @@ Authorized functions: None
 
 man ifconfig
 --------------------------
+WARNING: only MAC.sh can be delivered. The other files are only provided to check how the command works. 
+--------------------------
 ifconfig | grep -w ether | sed 's/^.*ether //' | tr -d ' '
 
 When you use the 'ifconfig' command in the terminal, a lot of information appears. 
