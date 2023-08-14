@@ -20,3 +20,11 @@ RTFM! (Read The F***ing Manual!)
 The first retry is short, don't hesitate to request an intermediate evaluation to measure your progress!
 --------------------------------
 
+Create a folder inside the directory shell00 named ex05 and change directory: 
+mkdir ex05
+cd ex05
+---------------------------
+
+vim git_commit.sh
+i
+git log --
