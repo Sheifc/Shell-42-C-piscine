@@ -68,7 +68,7 @@ In case of cheching subdirctories too:
 Copy files with: 
 `cp`
 
-move or rename files with:   
+move or rename files with:
 `mv`
 
 Moving files:   
