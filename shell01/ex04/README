@@ -7,10 +7,12 @@ Authorized functions: None
 
 man ifconfig
 --------------------------
+ifconfig | grep -w ether | sed 's/^.*ether //' | tr -d ' '
 
-When you use the 'ifconfig' command in the terminal, a lot of information appears. In this information, 
-we see that MAC addresses are preceded by the word 'ether'. 
-Therefore, we can search for the word 'ether' using 'sed' and replace each line from the beginning using '^' 
+When you use the 'ifconfig' command in the terminal, a lot of information appears. 
+In this information, we see that MAC addresses are preceded by the word 'ether'. 
+
+Therefore, we can search for the word 'ether' using grep -w and replace each line from the beginning using 'sed' and '^' 
 and any intermediate text '.*' until the word 'ether' and the following space.
 
-
+tr -d ' ' : to delete the newline
