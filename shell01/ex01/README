@@ -28,3 +28,6 @@ tr -d '\n': deletes the newline
 To check this:
 --------------
 export FT_USER=daemon 
+
+Make the file executable by providing it with the appropriate permissions:
+chmod 744 print_groups.sh
