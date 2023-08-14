@@ -10,3 +10,13 @@ consisting of the string "42" at the 42nd byte.
 
 man file
 --------------------------
+
+Create a folder inside the directory shell00 named ex09 and change directory: 
+mkdir ex09
+cd ex09
+---------------------------
+
+WARNING: Only the file ft_magic should be deliver, the rest of files must be deleted, they only have been included here to show to check how the command works. 
+
+---------------------------
+
