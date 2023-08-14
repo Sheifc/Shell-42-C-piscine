@@ -34,7 +34,7 @@ Once inside, create the requested file with vim or nano editor. It's up to you t
 VIM steps: 
 ---------
 `vim filename`  
-i   
+`i`  
 `esc:wq`  
 
 `filename`: replace this for the name of the file requested  
