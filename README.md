@@ -13,11 +13,11 @@ Tips:
 
 Use this command to list all folders and files to check the spelling of file names before evaluation: 
 
-ls */*
+`ls */*`
 
 In case of cheching subdirctories too: 
 
-ls */**
+`ls */**`
 
 Copy files with: 
 cp
