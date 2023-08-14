@@ -7,3 +7,7 @@ Authorized functions: None
 --------------------------
 It means to display one line yes, another no.
 
+ls -l | sed -n 'p;n'
+
+sed -n : modifies the output that usually appears by default
+'p;n' : p print, n jump: therefore prints the first line, jumps the second and so on.
