@@ -6,7 +6,7 @@ Subjects are provided on pdf files and folders are organised as requested.
 
 Each folder contains a README file where explanations are provided. 
 
-Both projects were evaluated by molinette with 100/100
+Both projects were evaluated by molinette with `100/100`
 
 Enjoy the practice!
 
@@ -48,11 +48,9 @@ Tips:
 -----
 
 Use this command to list all folders and files to check the spelling of file names before evaluation: 
-
 `ls */*`
 
 In case of cheching subdirctories too: 
-
 `ls */**`
 
 Copy files with: 
