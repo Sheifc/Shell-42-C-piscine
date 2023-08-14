@@ -1,6 +1,6 @@
 # Shell
 
-This repo contains some practical exercises and solutions to get some knowledge and practice on shell commands provided by 42 school. 
+This repo contains some practical exercises and solutions to get some knowledge and practice on shell commands provided by `42 School` as part of the `C piscine`.
 
 Subjects are provided on pdf files and folders are organised as requested.
 
@@ -23,7 +23,7 @@ First steps for both projects:
 
 `git clone link name`  
 
-`link_gitrepository`: remember to change this for the link of the git repository  
+`link`: remember to change this for the link of the git repository  
 `name`: replace this for shell00 or shell01 respectively  
 
 3. On terminal: use the commands `cd` (change directory) to move towards the directory and `mkdir` to create the delivery directory.
