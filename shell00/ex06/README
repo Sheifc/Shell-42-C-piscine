@@ -1,1 +1,17 @@
+Git 
+
+Files to deliver: git_ignore.sh
+Delivery directory: ex06/ 
+Authorized functions: None
+-------------------------------
+
+• Create a shell script that displays on the screen the list of existing files currently ignored by your Git repository and present in your local repository. 
+Example:
+%> bash git_ignore.sh | cat -e
+.DS_Store$
+mywork.c~$
+%>
+
+To test your script, we will use our own environment.
+--------------------------------
 
