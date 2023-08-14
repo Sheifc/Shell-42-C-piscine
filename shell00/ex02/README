@@ -7,7 +7,7 @@ Authorized functions: None
 Create a folder inside the directory shell00 named ex01 and change directory: 
 mkdir ex02
 cd ex02
-
+---------------------------
 Create the following files and directories. Do whatever is necessary so that running an `ls -l` in your directory shows something resembling this:
 • Once the exercise is solved, execute the command `tar -cf exo2.tar *` to create the file that you'll need to submit. 
 %> ls -l
@@ -24,6 +24,7 @@ lrwxrwxrwx 1 XX XX 5 Jun 1 22:20 test6 -> test0
 Don't worry about what appears in place of "XX". 
 
 A year is accepted as an answer instead of the time.
+-----------------------------
 
 - Create the file `exo2` in your delivery directory.
 
