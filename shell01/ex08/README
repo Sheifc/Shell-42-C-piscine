@@ -44,9 +44,8 @@ The final outcome of this entire process is a transformed and encrypted string t
 -------------------------------------
 To test the command: 
 -------------------
-Give permissions to the file: 
-`chmod 744 add_chelou.sh`
+1. Grant permissions: 
+chmod 744 add_chelou.sh
 
-On terminal: 
-------------
+2. Then run this command on terminal: 
 FT_NBR1='\'"'"'?"\"'"'"'\' FT_NBR2=rcrdmddd ./add_chelou.sh
