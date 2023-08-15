@@ -1,4 +1,4 @@
-Exercise 07: r_dwssap.sh
+ up Exercise 07: r_dwssap.sh
 Delivery directory: ex07/ 
 Files to deliver: r_dwssap.sh 
 Authorized functions: None
@@ -43,6 +43,6 @@ To check these commands:
 -----------------------
 1. Make the file executable by providing it with the appropriate permissions:
 chmod 744 r_dwssap.sh
-2. Then:
+2. Then set up the environmental variables like the example provided:
 export FT_LINE1=7
 export FT_LINE2=15
