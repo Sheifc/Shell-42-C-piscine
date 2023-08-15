@@ -77,7 +77,8 @@ In case of cheching subdirctories too:
 `ls */**`
 
 Copy files with: 
-`cp`
+`cp`  
+Example: `cp file copy_file`  
 
 move or rename files with:
 `mv`
