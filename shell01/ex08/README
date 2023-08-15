@@ -42,8 +42,8 @@ Digits from 0 to 9 and the letters `A`, `B`, and `C` will be replaced according 
 
 The final outcome of this entire process is a transformed and encrypted string that uses character replacements and numeric base conversions to achieve a specific result.
 -------------------------------------
-To test the command: 
--------------------
+To check the command: 
+--------------------
 1. Grant permissions: 
 chmod 744 add_chelou.sh
 
