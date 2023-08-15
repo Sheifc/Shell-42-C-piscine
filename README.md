@@ -43,7 +43,7 @@ Git instructions:
 `git status`    
 `git add .` (if you don´t wish to add all files, you can select the files to add instead of using `.`)  
 `git commit -m "comment"` (-m allows you to add a comment)  
-`git push`   
+`git push` (allows you to upload files added to the git repository)    
 `git log` (allows you to check that has been pushed correctly)  
 
 VIM steps on terminal: 
