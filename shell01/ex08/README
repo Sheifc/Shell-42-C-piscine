@@ -19,8 +19,34 @@ echo $FT_NBR1 + $FT_NBR2 | tr "'"'\\\"\?\!' 01234 | tr 'mrdoc' 01234 | sed 's/^/
 
 The entire command sequence takes FT_NBR1 and FT_NBR2, performs base conversions and arithmetic, and then translates the result into the specified character set.
 
-`echo $FT_NBR1 + $FT_NBR2`: Prints the sum of FT_NBR1 and FT_NBR2 separated by a space
-`tr "'"'\\\"\?\!' 01234 | tr 'mrdoc' 01234` : Translates characters in FT_NBR1 and FT_NBR2 from the given set of characters (''",?!') and ('mrdoc') to their corresponding numeric values (01234)
-`sed 's/^/obase=13; ibase=5;/'`: Adds the necessary prefix to set base conversion in bc: 'obase=13; ibase=5;'
-`bc`: Performs the base conversion calculation using the bc (basic calculator) command
-`tr 0123456789ABC 'gtaio luSnemf'`: Translates the output from bc back to the final base 'gtaio luSnemf' representation
+**Step-by-Step Explanation:**
+
+1. `echo $FT_NBR1 + $FT_NBR2`: This part of the command takes two variables, `$FT_NBR1` and `$FT_NBR2`, and prints them to the standard output with a plus sign between them.
+   
+2. `tr "'"'\\\"\?\!' 01234`: Here, the `tr` (translate) command is used to replace certain characters in the input. 
+The characters in the string `"'"'\\"?!'` will be replaced with digits from 0 to 4, respectively. 
+For instance, `'` is replaced by `0`, `"` by `1`, `\` by `2`, `?` by `3`, and `!` by `4`.
+
+3. `tr 'mrdoc' 01234`: This part of the command performs another translation with `tr`. 
+The characters in the string `'mrdoc'` will be replaced with digits from 0 to 4, respectively. 
+Therefore, `m` is replaced by `0`, `r` by `1`, `d` by `2`, `o` by `3`, and `c` by `4`.
+
+4. `sed 's/^/obase=13; ibase=5;/'`: Here, the `sed` command is used to add `"obase=13; ibase=5;"` to the beginning of each line. 
+This sets the numeric conversion base to 13 in the output and 5 in the input, meaning that numbers will be interpreted and displayed in base 5 and 13, respectively.
+
+5. `bc`: After the previous transformations, the resulting string is passed to the `bc` program, which is an arbitrary-precision calculator. 
+The `bc` command performs mathematical calculations based on the bases set in the previous step.
+
+6. `tr 0123456789ABC 'gtaio luSnemf'`: Finally, the result obtained from `bc` is passed to another translation using `tr`. 
+Digits from 0 to 9 and the letters `A`, `B`, and `C` will be replaced according to the replacement string `'gtaio luSnemf'`.
+
+The final outcome of this entire process is a transformed and encrypted string that uses character replacements and numeric base conversions to achieve a specific result.
+-------------------------------------
+To test the command: 
+-------------------
+Give permissions to the file: 
+`chmod 744 add_chelou.sh`
+
+On terminal: 
+------------
+FT_NBR1='\'"'"'?"\"'"'"'\' FT_NBR2=rcrdmddd ./add_chelou.sh
