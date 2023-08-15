@@ -41,5 +41,8 @@ It means, it is deselected all starting from the beginning to #
 
 To check these commands: 
 -----------------------
+1. Make the file executable by providing it with the appropriate permissions:
+chmod 744 r_dwssap.sh
+2. Then:
 export FT_LINE1=7
 export FT_LINE2=15
