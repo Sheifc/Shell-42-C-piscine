@@ -1,4 +1,4 @@
-# Shell 42 C piscine
+# Shell
 
 This repo contains some practical exercises and solutions to get some knowledge and practice on shell commands provided by `42 School` as part of the `C piscine`.
 
