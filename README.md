@@ -26,7 +26,7 @@ First steps for both projects:
 `link`: remember to change this for the link of the git repository  
 `name`: replace this for shell00 or shell01 respectively  
 
-3. On terminal: use the commands `cd` (change directory) to move towards the directory and `mkdir` to create the delivery directory.
+3. On terminal: use the commands `cd` (change directory) to move towards the directory and `mkdir` (make directory) to create the delivery directory.
 
 Example:   
 `mkdir shell00`   
